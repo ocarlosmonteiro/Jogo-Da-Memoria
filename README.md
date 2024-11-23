@@ -5,17 +5,10 @@
 <p>Baseado em pokemon, o objetivo do jogo é encontrar os pokemons pares até que se encontre todos.</p>
 
 <h2>👨‍💻 TECNOLOGIAS UTILIZADAS:</h2>
-<ul>
-    <li>
-        ![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=orange)
-    </li>
-    <li>
-        ![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=blue)
-    </li>
-    <li>
-        ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=yellow)
-    </li>
-</ul>
+
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=orange)
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=yellow)
 
 <h2>📌 MELHORIAS:</h2>
 <ul>
