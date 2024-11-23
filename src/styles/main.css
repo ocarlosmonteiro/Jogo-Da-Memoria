@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #313031;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+}
+
+.conteiner
+{
+    width: 75%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;    
+    background-color: #fdeff9c5;
+    border-radius: 1.3rem;    
+    padding: 40px 60px;
+}
+h2
+{
+    font-size: 2em;
+    color: #ffff00;
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: #0e0377;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: 'Pokemon Solid';
+}
+.reset
+{
+    padding: 15px 20px;
+    width: 100%;
+    color: #ffff00;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #3b0aeb;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.3rem;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    background: linear-gradient(#ff0000 50%, #ffffff 50%);
+}
+.reset:focus
+{
+    color: #ec38bc;
+    background-color:#262829;
+}
+.game
+{
+    width: 50%;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+
+}
+.item
+{
+    position: relative;
+    width: 23%;
+    height: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-size: 3em;
+    transform: rotateY(180deg);
+    transition: 0.25s;
+    border-radius: 50%;
+}
+
+.item::after
+{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #404040;
+    background-image: url(../images/Pokeball.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.25s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    border-radius: 50%;
+}
+
+.item.boxOpen
+{
+    transform: rotateY(0deg);
+}
+.boxOpen::after,
+.boxMatch::after
+{
+    transform: rotateY(180deg);
+}
