@@ -1,4 +1,4 @@
-<h1>Jogo da memória</h1>
+<h1 align = center>Jogo da memória</h1>
 
 <h2>👨‍💻 OBJETIVO:</h2>
 <p>Desenvolver um jogo da memória como desafio proposto pela <u>DIO</u> no BootCamp -  Ri Happy - Front-end do Zero.</p>
