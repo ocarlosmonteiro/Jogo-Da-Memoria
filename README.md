@@ -1,6 +1,6 @@
-<h1 align = "center">Jogo da memória</h1>
+<h1 align = "center">JOGO DA MEMÓRIA</h1>
 
-<h2>👨‍💻 OBJETIVO:</h2>
+<h2 align = "center">👨‍💻 OBJETIVO:</h2>
 <p>Desenvolver um jogo da memória como desafio proposto pela <u>DIO</u> no BootCamp -  Ri Happy - Front-end do Zero.</p>
 <p>Baseado em pokemon, o objetivo do jogo é encontrar os pokemons pares até que se encontre todos.</p>
 
