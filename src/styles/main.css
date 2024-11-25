@@ -40,11 +40,11 @@ h2
 .reset
 {
     padding: 15px 20px;
-    width: 100%;
+    width: 20%;
     color: #ffff00;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #3b0aeb;
-    background-color: #fff;
+    background-color: #000000;
     border: none;
     border-radius: 1.3rem;
     font-size: 1.5em;
@@ -52,29 +52,30 @@ h2
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 600;
-    background: linear-gradient(#ff0000 50%, #ffffff 50%);
+   
 }
 .reset:focus
 {
-    color: #ec38bc;
-    background-color:#262829;
+    color: #240eeb;
+    background-color:#f2f5f7;
+    transition: 0.5s;
+    transform-style: preserve-3d;
 }
 .game
 {
     width: 50%;
-    height: 430px;
+    height: 75vh;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     transform-style: preserve-3d;
     perspective: 500px;
-
 }
 .item
 {
     position: relative;
-    width: 23%;
-    height: 23%;
+    width: 2.6em;
+    height: 2.6em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,6 +84,7 @@ h2
     transform: rotateY(180deg);
     transition: 0.25s;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .item::after

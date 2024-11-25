@@ -1,21 +1,21 @@
 const pokemons = [
-    "🤞",
-    "🤞",
-    "🐱‍👤",
-    "🐱‍👤",
-    "🤑",
-    "🤑",
-    "🤡",
-    "🤡",
-    "🦅",
-    "🦅",
-    "🏀",
-    "🏀",
-    "🚀",
-    "🚀",
-    "🌌",
-    "🌌"
-];
+    '<img src = "../src/images/bullbasaur.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/bullbasaur.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/charmander.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/charmander.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/dratini.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/dratini.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/eevee.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/eevee.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/pikachu.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/pikachu.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/psyduck.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/psyduck.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/snorlax.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/snorlax.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/squirtle.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "../src/images/squirtle.png" height="42" width="42" style="vertical-align: middle;">'
+]
 let openCards = []
 
 let shufflePokemons = pokemons.sort(() => (Math.random() > 0.5 ? 2 : -1));
@@ -62,7 +62,8 @@ function checkMatch()
 
     if(document.querySelectorAll(".boxMatch").length === pokemons.length)
     {
-        alert("Você venceu!")
+        alert("Você venceu!");
+        window.location.reload();
     }
 }
 
