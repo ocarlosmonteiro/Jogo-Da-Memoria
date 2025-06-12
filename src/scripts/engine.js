@@ -1,7 +1,7 @@
 const pokemons = [
-    '<img src = "../../src/images/bullbasaur.png" height="42" width="42" style="vertical-align: middle;">',
-    '<img src = "../../src/images/bullbasaur.png" height="42" width="42" style="vertical-align: middle;">',
-    '<img src = "../../src/images/charmander.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "src/images/bullbasaur.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "src/images/bullbasaur.png" height="42" width="42" style="vertical-align: middle;">',
+    '<img src = "src/images/charmander.png" height="42" width="42" style="vertical-align: middle;">',
     '<img src = "../../src/images/charmander.png" height="42" width="42" style="vertical-align: middle;">',
     '<img src = "../../src/images/dratini.png" height="42" width="42" style="vertical-align: middle;">',
     '<img src = "../../src/images/dratini.png" height="42" width="42" style="vertical-align: middle;">',
