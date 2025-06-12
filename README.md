@@ -4,6 +4,9 @@
 <p>Desenvolver um jogo da memória como desafio proposto pela <u>DIO</u> no BootCamp -  Ri Happy - Front-end do Zero.</p>
 <p>Baseado em pokemon, o objetivo do jogo é encontrar os pokemons pares até que se encontre todos.</p>
 
+<h2 align = "center">👨‍💻 DEPLOY:</h2>
+<p>Link: <a href="https://ocarlosmonteiro.github.io/Jogo-Da-Memoria/">Clique aqui para jogar</a></p>
+
 <h2 align = "center">👨‍💻 TECNOLOGIAS UTILIZADAS:</h2>
 
 ![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=orange)
